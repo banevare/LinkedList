@@ -1,4 +1,3 @@
-
 class LinkedList {
 	public ListNode removeNthFromEnd(final ListNode head, int n) {
 		int length = 0;
