@@ -2,8 +2,8 @@
 class LinkedList {
 	public ListNode removeNthFromEnd(final ListNode head, int n) {
 		int length = 0;
-		ListNode p = head;											// wherever head points -> p points there too
-		while(p != null){											// obtaining the length of the linked list 
+		ListNode p = head;								// wherever head points -> p points there too
+		while(p != null){								// obtaining the length of the linked list 
 			length++;
 			p = p.next;
 		}
@@ -15,12 +15,12 @@ class LinkedList {
 
 		return head;
 	}
-	public class ListNode {											// Definition for singly-linked list.
+	public class ListNode {									// Definition for singly-linked list.
 		final int val;
 		ListNode next = null;
 		ListNode(int val) { this.val = val; }
 	}
-	public ListNode makeList(){										// Making our singly-linked list
+	public ListNode makeList(){								// Making our singly-linked list
 		ListNode a = new ListNode(1);
 		ListNode b = new ListNode(2);
 		ListNode c = new ListNode(3);
