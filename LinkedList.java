@@ -42,7 +42,7 @@ class LinkedList {
 		System.out.println();
 	}
 	public static void main(String[] args){							// main test for singly-linked list
-		Solution s = new Solution();
+		LinkedList s = new LinkedList();
 		ListNode head = s.makeList();
 		System.out.println( "-----------ORIGINAL LIST BELOW------------");
 		s.print(head);
