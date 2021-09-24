@@ -1,2 +1,3 @@
 # LinkedList
-Remove Nth node from a singly-linked list.
+
+Remove the specified node from a singly-linked list.
