@@ -14,4 +14,4 @@ jobs:
 
     - name: Test
       run: |
-       java LinkedList.java
+       java -ea LinkedList.java
