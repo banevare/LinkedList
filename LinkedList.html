@@ -7,8 +7,8 @@
 	var removeNthFromEnd = function(head, n) {
 		if (head == null) return head;
 		var length = 0;
-		var p = head;													// wherever head points -> p points there too
-		while(p != null){												// obtaining the length of the linked list 
+		var p = head;										// wherever head points -> p points there too
+		while(p != null){									// obtaining the length of the linked list 
 			length++;
 			p = p.next;
 		}
@@ -41,7 +41,7 @@
 	function makeList0(){										// ListNode = [] n = 1
 		return null;
 	}
-	function print(head){							// printing method of our singly-linked list
+	function print(head){										// printing method of our singly-linked list
 		var s = null;
 		var p = head;
 		while(p != null){
