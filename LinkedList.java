@@ -50,7 +50,7 @@ class LinkedList {
 		return s == null ? "" : s;
 	}
 	public static void test0(int n, String ta){							// empty ListNode test
-		Solution s = new Solution();
+		LinkedList s = new LinkedList();
 		ListNode head = s.makeList0();
 		String tb = "";
 		String rb = s.print(head);
@@ -61,7 +61,7 @@ class LinkedList {
 		assert(ta.equals(ra));
 	}
 	public static void test6(int n, String ta){							// 6 element ListNode test
-		Solution s = new Solution();
+		LinkedList s = new LinkedList();;
 		ListNode head = s.makeList6();
 		String tb = "1 2 3 4 5 6";
 		String rb = s.print(head);
